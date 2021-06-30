@@ -11,5 +11,32 @@
 
     <artifactId>zcc-rpc-server</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.zcc</groupId>
+            <artifactId>zcc-rpc-proto</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zcc</groupId>
+            <artifactId>zcc-rpc-transport</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zcc</groupId>
+            <artifactId>zcc-rpc-codec</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zcc</groupId>
+            <artifactId>zcc-rpc-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+    </dependencies>
+
 
 </project>

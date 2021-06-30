@@ -8,7 +8,7 @@ import lombok.Data;
 @Data
 public class Request {
     //请求的服务
-    private SerivceDescriptor service;
+    private ServiceDescriptor service;
     //调用传的参数
     private Object[] parameters;
 }
